@@ -5,9 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Meu Perfil</title>
+    <link rel="stylesheet" href="assets\css\style.css">
 </head>
 <body>
-    <ul>
+    <ul id="menu">
         <li>
             <a href="index.html">Home</a>
         </li>
@@ -16,23 +17,29 @@
         </li>
     </ul>
 
-    <h1>Sobre José</h1>
+    <h1 class="center">Sobre José</h1>
     
-    <p>
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatibus, dignissimos. In, deserunt quam unde magni, ex voluptas magnam sunt eum sit, fugiat repudiandae veniam rerum quisquam quas optio! Nulla, accusantium.
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi excepturi doloremque similique facere voluptas at voluptatem vero veniam a, debitis eos nostrum natus, illo nisi corporis amet? Totam, perspiciatis dolores.
-    </p>
-    <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore quidem voluptatibus ex temporibus minima voluptatem corporis quo ad aliquam quae ratione, sint a, velit reiciendis fugiat error saepe harum nemo!
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium molestias cum labore, eligendi quam odio at maiores excepturi accusantium, vel eveniet consectetur nobis consequatur. Dolorem dolores aperiam corrupti consectetur unde!
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quos quasi maxime, modi atque repellat, iusto pariatur, nulla ipsa dicta impedit ut facere soluta. Delectus ex quae officia enim eos! Nemo.
-    </p>
+    <div class="container">
+        <div class="p-30">
+            <p class = "justify">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatibus, dignissimos. In, deserunt quam unde magni, ex voluptas magnam sunt eum sit, fugiat repudiandae veniam rerum quisquam quas optio! Nulla, accusantium.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi excepturi doloremque similique facere voluptas at voluptatem vero veniam a, debitis eos nostrum natus, illo nisi corporis amet? Totam, perspiciatis dolores.
+            </p>
+            <p class = "justify">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore quidem voluptatibus ex temporibus minima voluptatem corporis quo ad aliquam quae ratione, sint a, velit reiciendis fugiat error saepe harum nemo!
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium molestias cum labore, eligendi quam odio at maiores excepturi accusantium, vel eveniet consectetur nobis consequatur. Dolorem dolores aperiam corrupti consectetur unde!
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quos quasi maxime, modi atque repellat, iusto pariatur, nulla ipsa dicta impedit ut facere soluta. Delectus ex quae officia enim eos! Nemo.
+            </p>
+        </div>
+        
+        <div>
+            <img class="br-50 wh-550 p-30" src="assets/img/pp.jfif" alt="Foto do José">
+        </div>
+    </div>
 
-    <img src="assets/img/pp.jfif" alt="Foto do José">
-
-    <h2>Vídeo motivacional</h2>
-
-    <iframe 
+    <h2 class="center">Vídeo Motivacional</h2>
+    <div class="container mb-50">
+        <iframe 
         width="560" 
         height="315" 
         src="https://www.youtube.com/embed/qwuEHKmtcBk" 
@@ -40,7 +47,20 @@
         frameborder="5" 
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
         allowfullscreen
-    ></iframe>
+        ></iframe>
+    </div>
+    
+    <hr>
+    <footer>
+        <div class="container">
+            <a href="https://www.linkedin.com/in/jose-silva-araujo" target="_blank"><img class="tm-social" src="assets/img/linkedin.png" alt="Logo do Linkedin"></a>
+            <a href="https://www.github.com/Jose-Araujo" target="_blank"><img class="tm-social" src="assets/img/github.png" alt="Logo do GitHub"></a>
+            <a href="https://www.instagram.com/jose.silva.araujo/" target="_blank"><img class="tm-social" src="assets/img/instagram.png" alt="Logo do Instagram"></a>            
+        </div>
+        <p class="center">
+            Todos os direitos reservados: José Araújo &copy
+        </p>
+    </footer>
 
 </body>
 </html>
